@@ -47,7 +47,7 @@ class ParagraphsAdministrationTest extends ParagraphsTestBase {
     $this->assertSession()->pageTextContains('localgov_contact_heading');
     $this->assertSession()->pageTextContains('localgov_contact_instagram');
     $this->assertSession()->pageTextContains('localgov_contact_location');
-    $this->assertSession()->pageTextContains('localgov_contact_minicom');
+    $this->assertSession()->pageTextContains('localgov_contact_textphone');
     $this->assertSession()->pageTextContains('localgov_contact_mobile');
     $this->assertSession()->pageTextContains('localgov_contact_office_hours');
     $this->assertSession()->pageTextContains('localgov_contact_other_social');

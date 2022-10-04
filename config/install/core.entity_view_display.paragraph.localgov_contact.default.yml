@@ -8,7 +8,7 @@ dependencies:
     - field.field.paragraph.localgov_contact.localgov_contact_heading
     - field.field.paragraph.localgov_contact.localgov_contact_instagram
     - field.field.paragraph.localgov_contact.localgov_contact_location
-    - field.field.paragraph.localgov_contact.localgov_contact_minicom
+    - field.field.paragraph.localgov_contact.localgov_contact_textphone
     - field.field.paragraph.localgov_contact.localgov_contact_mobile
     - field.field.paragraph.localgov_contact.localgov_contact_office_hours
     - field.field.paragraph.localgov_contact.localgov_contact_other_social
@@ -110,7 +110,7 @@ content:
     third_party_settings: {  }
     type: geolocation_map
     region: content
-  localgov_contact_minicom:
+  localgov_contact_textphone:
     weight: 5
     label: inline
     settings:

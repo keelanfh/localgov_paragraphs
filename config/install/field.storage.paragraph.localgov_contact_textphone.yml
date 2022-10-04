@@ -4,8 +4,8 @@ dependencies:
   module:
     - paragraphs
     - telephone
-id: paragraph.localgov_contact_minicom
-field_name: localgov_contact_minicom
+id: paragraph.localgov_contact_textphone
+field_name: localgov_contact_textphone
 entity_type: paragraph
 type: telephone
 settings: {  }

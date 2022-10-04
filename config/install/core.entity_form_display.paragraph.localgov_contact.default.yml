@@ -8,7 +8,7 @@ dependencies:
     - field.field.paragraph.localgov_contact.localgov_contact_heading
     - field.field.paragraph.localgov_contact.localgov_contact_instagram
     - field.field.paragraph.localgov_contact.localgov_contact_location
-    - field.field.paragraph.localgov_contact.localgov_contact_minicom
+    - field.field.paragraph.localgov_contact.localgov_contact_textphone
     - field.field.paragraph.localgov_contact.localgov_contact_mobile
     - field.field.paragraph.localgov_contact.localgov_contact_office_hours
     - field.field.paragraph.localgov_contact.localgov_contact_other_social
@@ -49,7 +49,7 @@ third_party_settings:
         - localgov_contact_phone
         - localgov_contact_mobile
         - localgov_contact_out_of_hours
-        - localgov_contact_minicom
+        - localgov_contact_textphone
       parent_name: group_contact_tabs
       weight: 22
       format_type: tab
@@ -417,7 +417,7 @@ content:
     third_party_settings: {  }
     type: geolocation_googlegeocoder
     region: content
-  localgov_contact_minicom:
+  localgov_contact_textphone:
     weight: 31
     settings:
       placeholder: ''
